@@ -1,15 +1,9 @@
 export default function Tile({ image, alt, title, description }) {
-    return (
-        <article className="tile">
-        <img
-            src={image}
-            alt={alt}
-            className="tile-image"
-        />
-        <h3>{title}</h3>
-        <p>
-            {description}
-        </p>
-    </article>
-    );
+	return (
+		<article className="tile">
+			<img src={image} alt={alt} className="tile-image" />
+			<h3>{title}</h3>
+			<p>{description}</p>
+		</article>
+	);
 }

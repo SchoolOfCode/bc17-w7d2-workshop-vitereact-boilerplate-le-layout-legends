@@ -61,6 +61,11 @@ body {
   text-align: center;
   padding: 10px;
 }
+
+.tile p {
+	font-weight: 400;
+}
+
 .tile-image {
   height: 200px;
   width: 250px;
@@ -73,7 +78,7 @@ body {
   justify-content: space-between;
   font-size: 22px;
 }
-.footer-colunm {
+.footer-column {
   display: flex;
   flex-direction: column;
 }
