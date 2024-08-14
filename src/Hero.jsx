@@ -15,7 +15,7 @@ export default function Hero() {
                     perfect fireplace ...
                 </p>
                 <p className="consultation-paragraph">
-                    Book consultation:{" "}
+                    Book consultation:
                     <span className="number-span">0121 345 6789</span>
                 </p>
             </div>
